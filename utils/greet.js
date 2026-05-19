@@ -1,4 +1,5 @@
-// utils/greet.js
-export function greet(name) {
+function greet(name) {
   return `Hello, ${name}!`;
 }
+
+module.exports = { greet };
