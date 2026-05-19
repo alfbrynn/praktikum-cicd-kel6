@@ -1,5 +1,5 @@
-# Gunakan image Node.js yang ringan
-FROM node:18-alpine
+# Gunakan image Node.js yang terbaru
+FROM node:20-alpine
 
 # Set direktori kerja di dalam kontainer
 WORKDIR /app
